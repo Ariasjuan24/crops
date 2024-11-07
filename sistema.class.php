@@ -103,7 +103,7 @@
           if (isset($_SESSION['roles'])) {
             $roles = $_SESSION['roles'];
             if (!in_array($rol, $roles)) {
-              $mensaje = "Eror, usted no tiene el rol adecuado";
+              $mensaje = "Error, usted no tiene el rol adecuado";
               $tipo = "danger";
               require_once('views/header/alert.php');
               $this->alerta($tipo, $mensaje);
