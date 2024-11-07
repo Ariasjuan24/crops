@@ -39,6 +39,7 @@
                         <li><a class="dropdown-item" href="usuario.php">Usuario</a></li>
                         <li><a class="dropdown-item" href="rol.php">Roles</a></li>
                         <li><a class="dropdown-item" href="permisos.php">Permisos</a></li>
+                        <li><a class="dropdown-item" href="empleado.php">Empleados</a></li>
                     </ul>
                 </li>
                 <!-- Other links -->

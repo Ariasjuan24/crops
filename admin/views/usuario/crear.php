@@ -17,7 +17,8 @@
     <?php foreach($roles as $rol): ?>
     <div>
         <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" name="rol[<?php echo($rol['id_rol']);?>]">
+            <input class="form-check-input" type="checkbox" 
+            <?php $checked = ''; if(in_array($rol['id_rol'],$misroles)):$checked = 'checked'; endif; echo($checked);?> role="switch" id="flexSwitchCheckChecked" name="rol[<?php echo($rol['id_rol']);?>]">
             <label class="form-check-label" for="flexSwitchCheckChecked"><?php echo($rol['rol']);?></label>
         </div>
     </div>
